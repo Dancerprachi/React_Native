@@ -10,7 +10,7 @@ function TimeTable() {
         source={require('@/assets/images/timetable.jpg')} 
         style={styles.componentImage}
       />
-      <Text style={styles.componentText}>Time </Text>
+      <Text style={styles.componentText}>Time Table</Text>
     </View>
   );
 }
