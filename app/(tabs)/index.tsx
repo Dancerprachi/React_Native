@@ -12,7 +12,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#FCE38A', dark: '#e7e7b4' }}
       headerImage={
         <Image
-          source={require('@/assets/images/logo.jpg')}
+          source={require('@/assets/images/logo.png')}
           style={styles.reactLogo}
         />
       }>
@@ -92,6 +92,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
+    marginTop:20,
+    marginLeft:20
   },
   reactLogo: {
     height: 40,
