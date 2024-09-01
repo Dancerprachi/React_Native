@@ -22,7 +22,7 @@ function AcademicCalendar() {
         source={require('@/assets/images/TermCalendar.png')} 
         style={styles.componentImage}
       />
-      <Text style={styles.componentText}>Term Calendar</Text>
+      <Text style={styles.componentText}>Calendar</Text>
     </View>
   );
 }
